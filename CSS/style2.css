@@ -1,0 +1,21 @@
+body{
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #a0caff;
+    padding: 15px 30px;
+}
+
+footer {
+    background-color: #a0caff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer img {
+    max-height: 105px;
+}

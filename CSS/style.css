@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif; /* Define a fonte */
+    text-align: center; /* Centraliza o texto da página */
+}
+
+header {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: space-between; /* Espalha o logo e o nav nas extremidades */
+    background-color: #a0caff; /* Cor do header */
+    padding: 15px 30px; /* Adiciona mais espaçamento ao redor */
+}
+
+h1 {
+    color: #5a5ab6;
+}
+
+.logo {
+    max-height: 105px; /* Aumenta a altura máxima do logo em 50% */
+}
+
+nav ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento padrão */
+    margin: 0; /* Remove a margem padrão */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista na horizontal */
+    margin-left: 30px; /* Aumenta o espaçamento entre os itens */
+    font-size: 24px; /* Aumenta o tamanho da fonte dos itens */
+    color: #5a5ab6; /* Cor do texto no header */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #5a5ab6; /* Cor do texto dos links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+img {
+    max-width: 100%; /* Limita a largura das imagens para caber na tela */
+    height: auto; /* Mantém a proporção das imagens */
+}
+
+ul {
+    padding: 0; /* Remove o preenchimento padrão */
+    margin: 0; /* Remove a margem padrão */
+}
+
+footer {
+    background-color: #a0caff; /* Cor do footer */
+    padding: 20px; /* Adiciona espaçamento interno ao footer */
+    text-align: center; /* Centraliza o texto do footer */
+}
+
+footer img {
+    max-height: 105px; /* Altura do logo no footer */
+}
+
+/* Estilo para os tipos de processadores */
+.tipos {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    justify-content: center; /* Centraliza os itens */
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+.tipos div {
+    width: 30%; /* Largura de cada item (3 itens na linha) */
+    text-align: center; /* Centraliza o texto dentro dos itens */
+}
+
+.tipos img {
+    width: 288.1px; /* Define a largura das imagens (reduzidas em 30%) */
+    height: 280px; /* Define a altura das imagens */
+}
+
+p {
+    height: auto; /* Altura automática para os parágrafos */
+}
